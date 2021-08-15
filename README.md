@@ -188,11 +188,4 @@ In order to utilize all the cores, **multiprocessing** module provides a **Pool*
     
     -   **initializer:**  specify an initialization function for worker processes.
     -   **initargs:**  arguments to be passed to initializer.
--   Now, in order to perform some task, we have to map it to some function. In the example above, we map  **mylist**  to  **square**  function. As a result, the contents of  **mylist**  and definition of  **square**  will be distributed among the cores.
-    
-    ```
-      result = p.map(square, mylist)
-    
-    ```
-    
--   Once all the worker processes finish their task, a list is returned with the final result.
+
