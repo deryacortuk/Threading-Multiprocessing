@@ -1,5 +1,4 @@
 import multiprocessing
-from multiprocessing.spawn import freeze_support
 import time
 
 
